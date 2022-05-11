@@ -1,0 +1,59 @@
+@font-face {
+    font-family: avenir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/AvenirNext-UltraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: avenir;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/AvenirNext-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: avenir;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/AvenirNext-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: avenir;
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/AvenirNext-DemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: avenir;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/AvenirNext-Bold.woff") format("woff");
+}
+
+:root {
+    $primary: #242a38;
+    $dark-grey: #4e596f;
+    $white: #ffffff;
+    $secondary: #f66763;
+
+    $font-headline: 28px;
+    $font-text: 16px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "avenir", sans-serif;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: "avenir", sans-serif;
+        font-weight: 500;
+    }
+}
