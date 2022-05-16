@@ -1,0 +1,36 @@
+.server_link {
+    text-decoration: none;
+
+    &:hover {
+        .server_link__item {
+            background-color: #3c3c3c;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        background-color: #484848;
+        color: #fff;
+        border-radius: 3px;
+        transition: background-color 100ms ease-in-out;
+
+        .server_item__region {
+            margin-top: 0;
+            margin-bottom: 0;
+            background-color: #ff9a8b;
+            background-image: linear-gradient(45deg, #ff9a8b 0%, #ff6a88 55%, #ff99ac 100%);
+            font-weight: 500;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+            padding: 14px;
+            line-height: 1;
+        }
+
+        .server_item__name {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 8px 15px;
+        }
+    }
+}
