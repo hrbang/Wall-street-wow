@@ -23,11 +23,11 @@ function Home() {
                     </Row>
                     <Row>
                         <EUServers />
-                        <USServers />
+                        {/* <USServers /> */}
                     </Row>
                 </Container>
             </main>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

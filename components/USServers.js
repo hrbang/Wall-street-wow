@@ -6,7 +6,7 @@ function USServers() {
     const [usRealms, setUsRealms] = useState([])
 
     const fetchDataUS = () => {
-        fetch("https://us.api.blizzard.com/data/wow/realm/index?namespace=dynamic-us&locale=en_US&access_token=USAnt0rYQZEp9OZqtkiYOgVinCyP7IcBd3")
+        fetch("https://us.api.blizzard.com/data/wow/realm/index?namespace=dynamic-us&locale=en_US&access_token=UStpcIhgeXnYdYQK4n1PcLLOV2QexjXF2z")
             .then((response) => {
                 return response.json()
             })
